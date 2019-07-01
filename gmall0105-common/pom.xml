@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gmall-common</artifactId>
+    <artifactId>gmall0105-common</artifactId>
 
     <dependencies>
         <dependency>

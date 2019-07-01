@@ -41,6 +41,9 @@ public class LoggerController {
         }
         System.out.println(log);
         return log;
+//        {"area":"heilongjiang","uid":"396","os":"andriod","ch":"huawei","appid":"gmall0105",
+// "mid":"mid_288","type":"startup","vs":"1.1.2","ts":1561996832185}
+
     }
 
     /*@GetMapping("hello")
