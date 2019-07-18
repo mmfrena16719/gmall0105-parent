@@ -13,7 +13,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.phoenix.spark._
 
 /**
-  *
+  * 日活实时kafka-->redis-->phonenix
   */
 object DauApp {
   def main(args: Array[String]): Unit = {
@@ -97,10 +97,8 @@ object DauApp {
         new Configuration,Some("hadoop102,hadoop103,hadoop104:2181"))
     }
 
-
     ssc.start()
     ssc.awaitTermination()
 
   }
-
 }

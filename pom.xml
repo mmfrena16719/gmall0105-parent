@@ -12,6 +12,9 @@
         <module>gmall0105-common</module>
         <module>gmall0105-mock</module>
         <module>gmall0105-logger</module>
+        <module>gmall0105-realtime</module>
+        <module>dw-chart</module>
+        <module>gmall0105-canal</module>
     </modules>
 
 
